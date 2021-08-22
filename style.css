@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(182, 170, 250);
+    font-family: 'Dosis', sans-serif;
+}
+
+#title{
+    font-family: Franklin Gothic Medium;
+    font-weight: bolder;
+    font-family: 'Besley', serif;
+}
+/* only for range value ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#forFull,#forH,
+#forGFull,#forGH{
+display: flex;
+}
+
+#rangeFull,#rangeH,
+#rangeGFull,#rangeGH{
+width:45%;
+display: block;
+}
+
+#showValue ,#showV,
+#showGValue ,#showGV{
+    padding: 3px;
+    background-color: rgb(238, 238, 238);
+    display: block;
+    border-radius: 37%;
+    width: 24px;
+    height: 30px;
+}
+.form-label {
+    margin-bottom: none;
+}
+#millChargeF,#millChargeH,
+#millChargeGF,#millChargeGH{
+    width: 91px;
+
+}
+#millChargeF,#millChargeH,
+#millChargeGF,#millChargeGH:focus{
+    border: none;
+    outline: none;
+}
+/*End~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* for extra bill~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#extra{
+    width: 237px;
+}
+#resultSection #totalResult{
+    border: none;
+    outline: none;
+    font-size: large;
+    font-weight: bolder;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}
+
+
+#againShowResult{
+    width: 70px;
+}
+#finalAns{
+    width: 70px;
+}
