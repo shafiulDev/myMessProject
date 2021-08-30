@@ -22,8 +22,8 @@ const finalResult = document.getElementById('finalResult')
 
 
 
-  // for full~~~~~~~~~~~~~~~~~~~
-  document.querySelector('#forFull').onchange = function () {
+// for full~~~~~~~~~~~~~~~~~~~
+document.querySelector('#forFull').onchange = function () {
 
     const rangeFull = document.querySelector('#rangeFull').value
     const showValue = document.querySelector('#showValue')
@@ -33,7 +33,6 @@ const finalResult = document.getElementById('finalResult')
     ansF.innerHTML = ansF.value
 
 }
-
 
 // for houf~~~~~~~~~~~~~~~~~~~~~~
 document.querySelector('#forH').onchange = function () {
@@ -88,11 +87,12 @@ submit.addEventListener('click', function (e) {
     full()
 })
 
-resultBtn.addEventListener('click',function(){
-    finalAns.value = paidAmount.value- againShowResult.value
-    document.getElementById('checkMoney').innerHTML =`Your balance is: ${finalAns.value}`
+resultBtn.addEventListener('click', function () {
+    finalAns.value = paidAmount.value - againShowResult.value
+    document.getElementById('checkMoney').innerHTML = `Your balance is: ${finalAns.value}`
 })
 
+const maneger = document.getElementById('maneger')
 
 
 
